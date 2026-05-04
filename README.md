@@ -24,12 +24,12 @@ deploy_unseen_multitask.py
         ↓
 AutoLabeler.py
         ↓
-manual_review.py
+audit_interface.py
         ↓
 mmaction2_joint_multitask_final.py
 ```
 
-The first run is meant to skip over steps 3 and 4. Afterwards, we ignore the first two steps and the loop is repeated after manual review so that newly accepted labels can be added back into the training set.
+The first run is meant to skip over steps 3 and 4. Afterwards, we ignore the first two steps and the loop is repeated after manual review (audit_interface.py) so that newly accepted labels can be added back into the training set.
 
 ---
 
