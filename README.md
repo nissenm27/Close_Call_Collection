@@ -30,7 +30,7 @@ AutoLabeler.py
 manual_review.py
         ↓
 mmaction2_joint_multitask_final.py
-
+```
 
 The loop is repeated after manual review so that newly accepted labels can be added back into the training set.
 
@@ -55,3 +55,4 @@ data/
   saved_model/
     joint_multitask_four_head_best.pth
     joint_splits.csv
+```
