@@ -61,6 +61,7 @@ data/
   X_ctx.csv
   meta.csv
   bdd_sce.csv
+  downloaded_videos_meta.csv
   annotated_videos_only/
   saved_model/
   unseen_batches/
