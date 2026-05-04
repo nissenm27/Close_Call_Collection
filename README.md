@@ -6,13 +6,10 @@ End-to-end semi-automated annotation pipeline for VTTI safety-critical event det
 
 This repository contains an end-to-end pipeline for detecting and semi-automatically annotating safety-critical events (SCEs) in BDD100K videos. The core model is a four-head MMAction2 SlowFast + kinematics fusion pipeline that predicts:
 
-$$
-\text{Event Type} \in \{\text{Conflict},\ \text{Bump},\ \text{Hard Brake},\ \text{Not an SCE}\}
-$$
-
-$$
-\text{Grouped Conflict Type}, \quad \text{17-Way Conflict Type}, \quad \widehat{\text{BDD_START}}
-$$
+- **Event Type:** `Conflict`, `Bump`, `Hard Brake`, or `Not an SCE`
+- **Grouped Conflict Type**
+- **17-Way Conflict Type**
+- **Predicted Event Start Time:** `BDD_START`
 
 The intended workflow is:
 
