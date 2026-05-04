@@ -11,7 +11,7 @@ $$
 $$
 
 $$
-\text{Grouped Conflict Type}, \quad \text{17-Way Conflict Type}, \quad \widehat{\text{BDD\_START}}
+\text{Grouped Conflict Type}, \quad \text{17-Way Conflict Type}, \quad \widehat{\text{BDD_START}}
 $$
 
 The intended workflow is:
@@ -32,7 +32,7 @@ manual_review.py
 mmaction2_joint_multitask_final.py
 ```
 
-The loop is repeated after manual review so that newly accepted labels can be added back into the training set.
+The first run is meant to skip over steps 3 and 4. Afterwards, we ignore the first two steps and the loop is repeated after manual review so that newly accepted labels can be added back into the training set.
 
 ---
 
