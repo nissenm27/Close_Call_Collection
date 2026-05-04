@@ -41,15 +41,27 @@ Required files/folders:
 
 ```text
 data/
-  X_ts.npy
-  X_ctx.csv
-  meta.csv
-  bdd_sce.csv
 
   annotated_videos_only/
     *.mov
 
   saved_model/
     joint_multitask_four_head_best.pth
-    joint_splits.csv
 ```
+
+## Path Configuration Note
+
+Some scripts were originally developed across different machines/environments, so a few paths may need to be checked before running the full pipeline.
+
+The intended repository-relative structure is:
+
+```text
+data/
+  X_ts.npy
+  X_ctx.csv
+  meta.csv
+  bdd_sce.csv
+  annotated_videos_only/
+  saved_model/
+  unseen_batches/
+  results/
